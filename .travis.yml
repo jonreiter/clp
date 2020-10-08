@@ -1,0 +1,8 @@
+language: go
+
+go:
+        - 1.15.x
+        - 1.14.x
+
+before_install:
+        - sudo apt-get -y install coinor-clp coinor-libclp-dev
